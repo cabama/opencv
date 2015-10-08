@@ -1,7 +1,7 @@
 import cv2
 
 # Leemos la imagen y la introducimos en la siguiente variable.
-img_abierta = cv2.imread('prueba.jpg', 0)
+img_abierta = cv2.imread('resources/images/prueba.jpg', 0)
 # Abrimos una ventana de tipo imagen, se introduce el titulo y la variable que contiene la imagen.
 cv2.imshow("Curso de OpenCV", img_abierta)
 
@@ -13,7 +13,7 @@ def cerrar_ventana():
 
 # Definimos una funcion para guardar la imagen, se le pasa como parametros el nombre para guardar y la variable imagen.
 def guardar_imagen():
-    cv2.imwrite("demo_saved.jpg", img_abierta)
+    cv2.imwrite("saved/demo_saved.jpg", img_abierta)
 
 
 # Escuchamos que se pulse una tecla
