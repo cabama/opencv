@@ -17,6 +17,12 @@ En esta nueva ventana pulsar el boton "Nueva variables del sistema" ->
 Nombre de la variable = "Pythonpath"
 Valor de la variable  = "C:\Python27\;C:\Python27\Scripts"
 
+3) Instalar numpy
+http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-win32-superpack-python2.7.exe/download
+
+4) Instalar Matplotlib
+https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.3.0/matplotlib-1.3.0.win32-py2.7.exe
+
 ## Install OpenCV
 
 1) Descargar opencv: 
