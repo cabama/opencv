@@ -5,14 +5,12 @@ def dibujar_rectangulo(img):
 	img = cv2.rectangle(img,(384,0),(510,128),(0,255,0),3)
 	return img
 
-def escribir(escrito, img):	
+def escribir(escrito, img):
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	cv2.putText(img,escrito,(10,500), font, 4,(255,255,255),2,cv2.CV_AA)
 
 #img = cv2.circle(img,(447,63), 63, (0,0,255), -1)
 #img = cv2.ellipse(img,(256,256),(100,50),0,0,180,255,-1)
-
-
 cap = cv2.VideoCapture(0)
 
 while(True):
@@ -32,5 +30,3 @@ while(True):
 # When everything done, release the capture
 cap.release()
 cv2.destroyAllWindows()
-
-
