@@ -8,6 +8,7 @@ faceCascade = cv2.CascadeClassifier(cascPath)
 # Predisponemos a capturar el video
 cap = cv2.VideoCapture(0)
 
+
 # Funcion para escribir en una imagen si se encuentra paleto
 def escribir(escrito, img):	
 	font = cv2.FONT_HERSHEY_SIMPLEX
